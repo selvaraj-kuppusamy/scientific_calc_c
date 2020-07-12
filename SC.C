@@ -7,6 +7,7 @@ void delay(unsigned int milliseconds) {
     clock_t start = clock();
     while ((clock() - start) * 1000 / CLOCKS_PER_SEC < milliseconds);
 }
+// main program starts here
 int main()
 {
 int m,c, d, first[10][10], second[10][10], sum[10][10],sub[10][10];
@@ -15,6 +16,7 @@ float fsum=0,fvalue,fs1,fs2,fsub,fm1,fm2,fmul,fd1,fd2,fdiv;
 char cname[]={'V','E','L','M','A','N','I',' ','T','E','C','H','N','O','L','O','G','I','E','S','\0'};
 char nname[]={'P','R','E','S','E','N','T','S','\0'};
 char sname[]={'S','C','I','E','N','T','I','F','I','C',' ','C','A','L','C','U','L','A','T','O','R','\0'};
+//this is the clear screen function
 clrscr();
 printf("\t\t\t");
 for(i=0;cname[i]!='\0';i++)
