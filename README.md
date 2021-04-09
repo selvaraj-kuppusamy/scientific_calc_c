@@ -1,3 +1,9 @@
 # scientific_calc_c
 
-Added Initial version
+SCIENTIFIC CALCULATOR
+
+#compile the c program
+gcc SC.c -o SC
+
+#Run the code
+./SC
